@@ -16,7 +16,7 @@
 <body>
 
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light mb-3" style="background-color: #b7c88e;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Laravel Pertama</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -31,11 +31,15 @@
             </div>
         </div>
     </nav>
-    <a href="/friends/create" class="card-link btn-primary">Add Friends</a>
+    <a href="/friends/create" class="badge bg-primary">Add Friends</a>
+    <div class="row mt-3">
+		<div class="col-md-6">
 
     @yield('content')
 
     </div>
+</div>
+</div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
